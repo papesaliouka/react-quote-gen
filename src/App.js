@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import QuoteBox from './component/quote-box/quoteBox';
+import {useState, useEffect} from 'react'
 function App() {
+  const [quote, setQuote] = useState("");
+  const [author, setAuthor] = useState('');
+  const rand=()=> (Math.floor(Math.random()*100))
+  const request =() => {
+    return(
+    fetch("https://type.fit/api/quotes")
+    .then(response=> response.json())
+    .then(data=> {setQuote(data[rand()].text); setAuthor(data[rand()].author)})
+    );
+  }
+  useEffect(()=> request(),[])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <QuoteBox quote={quote} author={author} request={request}/>
     </div>
   );
 }
