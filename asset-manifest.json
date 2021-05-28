@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-quote-gen/static/css/main.4ed962cf.chunk.css",
+    "main.js": "/react-quote-gen/static/js/main.1e4fc93b.chunk.js",
+    "main.js.map": "/react-quote-gen/static/js/main.1e4fc93b.chunk.js.map",
+    "runtime-main.js": "/react-quote-gen/static/js/runtime-main.ebca5ada.js",
+    "runtime-main.js.map": "/react-quote-gen/static/js/runtime-main.ebca5ada.js.map",
+    "static/js/2.5c1a66d4.chunk.js": "/react-quote-gen/static/js/2.5c1a66d4.chunk.js",
+    "static/js/2.5c1a66d4.chunk.js.map": "/react-quote-gen/static/js/2.5c1a66d4.chunk.js.map",
+    "static/js/3.f4d1d097.chunk.js": "/react-quote-gen/static/js/3.f4d1d097.chunk.js",
+    "static/js/3.f4d1d097.chunk.js.map": "/react-quote-gen/static/js/3.f4d1d097.chunk.js.map",
+    "index.html": "/react-quote-gen/index.html",
+    "static/css/main.4ed962cf.chunk.css.map": "/react-quote-gen/static/css/main.4ed962cf.chunk.css.map",
+    "static/js/2.5c1a66d4.chunk.js.LICENSE.txt": "/react-quote-gen/static/js/2.5c1a66d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebca5ada.js",
+    "static/js/2.5c1a66d4.chunk.js",
+    "static/css/main.4ed962cf.chunk.css",
+    "static/js/main.1e4fc93b.chunk.js"
+  ]
+}
